@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, 
+                   initial-scale=1.0">
+    <title>HTML Button</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-top: 40px;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        /* Button Styles */
+
+        .blue {
+            background-color: #3daaf3;
+            color: #fff;
+        }
+
+        .green {
+            background-color: #3bda7d;
+            color: #fff;
+        }
+
+        .warnning {
+            background-color: #f08f3b;
+            color: #fff;
+        }
+
+        .red {
+            background-color: #e44331;
+            color: #fff;
+        }
+
+        /* Hover Styles */
+        button:hover {
+            background-color: #616161;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+      <img src=
+"https://media.geeksforgeeks.org/gfg-gg-logo.svg"
+              alt="btn">
+      </div>
+    <button class="blue">Primary</button>
+    <button class="green">Secondary</button>
+    <button class="warnning">Warning</button>
+    <button class="red">Danger</button>
+    <br/>
+    <button type="button" onclick="alert('Welcome')"> redirect </button>
+
+    <button autofocus>Autofocus Button</button>
+    <br><br>
+
+    <!-- Disabled Attribute -->
+    <button disabled>Disabled Button</button>
+    <br><br>
+
+    <!-- Form Attribute -->
+    <form action="/submit-form" method="POST">
+        <!-- Form Action Attribute -->
+        <button formaction="/submit-data">Submit Data</button>
+        <br><br>
+        <!-- Form No Validate Attribute -->
+        <input type="text" name="username" formnovalidate>
+        <br><br>
+        <!-- Form Enctype Attribute -->
+        <input type="file" name="file" formenctype="multipart/form-data">
+        <br><br>
+        <!-- Form Method Attribute -->
+        <button formmethod="get">Submit (GET)</button>
+        <button formmethod="post">Submit (POST)</button>
+        <br><br>
+        <!-- Form Target Attribute -->
+        <button formtarget="_blank">Open in New Tab</button>
+    <br><br>
+
+    <!-- Type Attribute -->
+    <button type="button">Regular Button</button>
+    <button type="submit">Submit Button</button>
+    <button type="reset">Reset Button</button>
+    <br><br>
+    </form>
+    <!-- Value Attribute -->
+    <button value="Click Me">Click Me</button>
+</body>
+
+</html>

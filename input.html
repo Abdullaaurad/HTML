@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    body {
+        text-align: left;
+    }
+</style>
+ 
+<body>
+    <h1 style="color: green;">
+      GeeksForGeeks
+      </h1>
+ 
+    <form>
+        <label>Name:</label>
+        <input type="text" name="name" value="">
+          <br><br>
+ 
+        <label>E-mail:</label>
+        <input type="email" name="emailaddress">
+          <br><br>
+ 
+        <label>Password: </label>
+        <input type="password" name="password">
+          <br><br>
+
+        <label>alive: </label>
+        <input type="checkbox" name="alive">
+        <br><br>
+
+        <label>:age </label>
+        <input type="radio" name="age">
+          <br><br>
+
+        <label>:file </label>
+        <input type="file" name="file">
+        <br><br>
+
+        <label>:age </label>
+        <input type="number" name="number">
+          <br><br>
+
+        <label>date of birth: </label>
+        <input type="date" name="DOB">
+        <br><br>
+
+        <label>color: </label>
+        <input type="color" name="color">
+          <br><br>
+
+        <label>Range: </label>
+        <input type="Range" name="Range">
+        <br><br>
+
+        <label>hidden: </label>
+        <input type="hidden" name="hidden">
+        <br><br>
+
+        <label>Image: </label>
+        <input type="image" src="image-url.jpg" name="image">
+        <br><br>
+        
+        <h1>All the Attributes we can use</h1>
+
+        <label>Type something:</label>
+        <input type="text" name="input_text" value="Default Text" maxlength="50" size="30">
+        <br><br>
+    
+        <!-- Placeholder Attribute -->
+        <label>Enter your email:</label>
+        <input type="email" name="email" placeholder="example@example.com">
+        <br><br>
+    
+        <!-- Name Attribute -->
+        <label>Username:</label>
+        <input type="text" name="username">
+        <br><br>
+    
+        <!-- Checked Attribute -->
+        <label>Select your choice:</label>
+        <input type="checkbox" name="choice" value="option1" checked> Option 1
+        <input type="checkbox" name="choice" value="option2"> Option 2
+        <br><br>
+    
+        <!-- Disabled Attribute -->
+        <label>Disabled Input:</label>
+        <input type="text" name="disabled_input" value="Cannot edit" disabled>
+        <br><br>
+    
+        <!-- Max Attribute -->
+        <label>Enter a number (less than or equal to 100):</label>
+        <input type="number" name="number_input" max="100">
+        <br><br>
+    
+        <!-- Required Attribute -->
+        <label>Required Field:</label>
+        <input type="text" name="required_field" required>
+        <br><br>
+    
+        <!-- Readonly Attribute -->
+        <label>Read-only Field:</label>
+        <input type="text" name="readonly_field" value="Read-only Value" readonly>
+        <br><br>
+    
+        <!-- Accept Attribute -->
+        <label>Upload a file (only .jpg or .png):</label>
+        <input type="file" name="file_upload" accept=".jpg,.png">
+        <br><br>
+    
+        <!-- Height Attribute -->
+        <label>Image Input with Height:</label>
+        <input type="image" src="image-url.jpg" alt="Image" height="100">
+        <br><br>
+    
+        <!-- List Attribute -->
+        <label>Choose from a list:</label>
+        <input type="text" name="fruit" list="fruits">
+        <datalist id="fruits">
+            <option value="Apple">
+            <option value="Banana">
+            <option value="Orange">
+        </datalist>
+        <br><br>
+    
+        <!-- Multiple Attribute -->
+        <label>Enter multiple values:</label>
+        <input type="text" name="multiple_values" multiple>
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+ 
+</html>
