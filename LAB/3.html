@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+        <style>
+            body{
+                padding: 30px;
+                font-size: 20px;
+            }
+            .form{
+                background-color: rgb(211, 211, 211);
+                padding : 3%;
+                margin-left: 10%;
+                margin-right: 50%
+            }
+            select{
+                padding-right : 25%;
+                margin-top: 2%;
+                margin-bottom: 5%;
+                border-radius: 3%;
+                border: none;
+            }
+            button{
+                background-color: grey;
+                border-radius: 8%;
+                border: none;
+                padding-left: 13%;
+                padding-right: 13%;
+                padding-top: 3%;
+                padding-bottom: 3%;
+                margin-top: 5%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <form class="form">
+            <h3>Available Hotel Packages</h3><br>
+            <div class="radio-group">
+              <input type="radio" id="wedding" name="Package" value="Wedding">
+              <label for="wedding">Wedding Package</label><br>
+              
+              <input type="radio" id="birthday" name="Package" value="Birthday">
+              <label for="birthday">Birthday Package</label><br>
+              
+              <input type="radio" id="normal" name="Package" value="Normal">
+              <label for="normal">Normal Function Package</label><br>
+              
+              <input type="radio" id="dayout" name="Package" value="Day out Package">
+              <label for="dayout">Day out Package</label><br>
+            </div>
+            <button type="submit">Submit</button>
+          </form>
+        
+    </body>
+</html>
